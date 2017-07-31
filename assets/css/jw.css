@@ -58,7 +58,7 @@ body{
   box-sizing:border-box;
   margin-left:-0.4em;
   position:relative;
-  font-size:1.5em;
+  font-size:2em;
   overflow:hidden;
   text-decoration:none;
 }
@@ -131,11 +131,6 @@ body{
 .jw_square:hover .jw_link:before,.jw_square:hover .jw_link:after{
   width:100%;
   text-decoration:none;
-}
-
-.jw_text {
-  font-size: 20px;
-  font-weight: bold;
 }
 
 
