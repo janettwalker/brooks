@@ -1,0 +1,402 @@
+/*link effects*/
+.jw_link,.jw_link:visited,.jw_link:hover,.jw_link:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:relative;
+  transition:0.5s color ease;
+  color:#d73444;
+  font-size:1.5em;
+  text-decoration:none;
+}
+
+.jw_link:hover{
+  color:#d73444;
+  text-decoration:none;
+}
+
+.jw_link.jw_before:before,.jw_link.jw_after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  text-decoration:none;
+}
+
+.jw_link.jw_before:before{
+  top:-0.25em;
+  text-decoration:none;
+}
+
+.jw_link.jw_after:after{
+  bottom:-0.25em;
+  text-decoration:none;
+}
+
+.jw_link.jw_before:before,.jw_link.jw_after:after{
+  height:5px;
+  height:0.35rem;
+  width:0;
+  background:#d73444;
+  text-decoration:none;
+}
+
+.jw_link.jw_square:hover:before,.jw_link.jw_after:hover:after{
+  width:100%;
+  text-decoration:none;
+}
+
+.jw_square{
+  box-sizing:border-box;
+  margin-left:-0.4em;
+  position:relative;
+  font-size:1.5em;
+  overflow:hidden;
+  text-decoration:none;
+}
+
+.jw_square .jw_link{
+  position:static;
+  font-size:100%;
+  padding:0.2em 0.4em;
+  text-decoration:none;
+}
+
+.jw_square:before,.jw_square:after{
+  content: "";
+  box-sizing:border-box;
+  transition:0.25s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  width:5px;
+  width:0.35rem;
+  height:0;
+  background:#d73444;
+  text-decoration:none;
+}
+
+.jw_square:before{
+  left:0;
+  bottom:-0.2em;
+  text-decoration:none;
+}
+
+.jw_square.jw_individual:before{
+  transition-delay:0.6s;
+  text-decoration:none;
+}
+
+.jw_square:after{
+  right:0;
+  top:-0.2em;
+  text-decoration:none;
+}
+
+.jw_square.jw_individual:after{
+  transition-delay:0.2s;
+  text-decoration:none;
+}
+
+.jw_square .jw_link:before{
+  left:0;
+  transition:0.25s all ease;
+  text-decoration:none;
+}
+
+.jw_square .jw_link:after{
+  right:0;
+  transition:0.25s all ease;
+  text-decoration:none;
+}
+
+.jw_square.jw_individual .jw_link:after{
+  transition:0.25s all ease 0.4s;
+  text-decoration:none;
+}
+
+.jw_square:hover:before,.jw_square:hover:after{
+  height:calc(100% + 0.4em);
+  text-decoration:none;
+}
+
+.jw_square:hover .jw_link:before,.jw_square:hover .jw_link:after{
+  width:100%;
+  text-decoration:none;
+}
+
+.jw_text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+
+/*boxes with red left number*/
+.jw_border {
+  outline: 1px solid red;
+  outline-offset: -10px;
+  height: 130px;
+}
+
+.jw_num_box {
+  width: 20%; 
+  float: left; 
+  padding: 10px
+} 
+
+.jw_num_text {
+  padding: 20px;
+  line-height: 1.3em;
+  text-align: left;
+  font-size: 17px;
+}
+
+.jw_card {
+  width:33.25%; 
+  float:left
+}
+
+
+
+
+/*call fire-depot first box*/
+.jw_text1{
+  font-size: 30px;
+  margin:50px;
+}
+
+.jw_top {
+  margin: 20px;
+  color: white;
+}
+
+.jw_chain {
+  width: 16.65%; 
+  float: left; 
+  padding: 10px
+}
+
+.jw_smokeimg {
+  background-image: url("smoke.jpg");
+  width: 100%;
+}
+
+.jw_spacer {
+  height: 50px;
+}
+
+.jw_bottomtext {
+  line-height: 1em;
+  margin:25px 175px 0px 175px;
+}
+
+.jw_style {
+    margin: 20px;
+}
+
+.jw_text-h3{
+  margin:30px;
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 3px 3px #333333;
+}
+
+.jw_text-p{
+  margin:30px;
+  font-size: 25px;
+  line-height: 1.25em;
+  text-shadow: 1px 1px #333333;
+}
+
+.jw_bold {
+  font-size: 30px;
+  text-shadow: 2px 2px #333333;
+}
+
+.jw_top{
+  margin-top: 20px;
+}
+
+
+/* Parallax Elements */
+.jw_parallax { 
+    /* The image used */
+    background-image: url("firefighters2.jpg");
+
+    /* Set a specific height */
+    height: 350px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+.jw_hr2{
+  color:white;
+  opacity:0.2;
+}
+
+.jw_hr3{
+  color:white;
+  opacity:0;
+}
+
+
+
+
+/*Media Queries for responsiveness*/
+
+
+@media (max-width: 1200px) {
+  .jw_parallax {
+    height: 320px; 
+  }
+
+  .jw_card{
+    height: 120px;
+    width:50%; 
+    float:left;
+  }
+
+  .jw_text-h3{
+    margin: 20px;
+    font-size: 80px;
+  }
+
+  .jw_num_text {
+    font-size: 16px;
+  }
+
+}
+
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+  .jw_parallax {
+    background-attachment: scroll;
+    height: 250px; 
+  }
+}
+
+@media (max-width: 900px) {
+  .jw_chain {
+    width: 33%; 
+    float: left; 
+    padding: 10px
+  }
+
+  .jw_text-h3{
+    margin:20px;
+    font-size: 70px;
+  }
+
+  .jw_text-p{
+    font-size: 20px;
+  }
+
+  .jw_bold {
+    font-size: 30px;
+    line-height: 1.25em
+  }
+
+  .jw_bottomtext {
+    margin: 25px 50px 0px 50px;
+  }
+}
+
+
+@media (max-width: 800px){
+  .jw_card{
+    height: 140px;
+    width:50%; 
+    float:left;
+  }
+
+  .jw_text-h3{
+    margin: 20px;
+    font-size: 50px;
+  }
+
+  .jw_text-p{
+    margin: 30px;
+    font-size: 20px;
+  }
+
+  .jw_bold {
+    font-size: 30px;
+    text-shadow: 2px 2px #333333;
+  }
+
+  .jw_spacer2{
+    background-image: url("spacer.png");
+    height: 10px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .jw_bottomtext {
+    margin: 25px 25px 0px 25px;
+  }
+
+  .jw_parallax {
+    background-attachment: scroll;
+    height: 450px;
+  }
+
+  .jw_chain {
+    width: 50%; 
+    float: left; 
+    padding: 10px
+  }
+
+  .jw_bold {
+    font-size: 30px;
+  }
+
+  .jw_card{
+    width:100%; 
+    clear:both;
+    height: 100%;
+  }
+
+  .jw_num_text {
+    font-size: 20px;
+  }
+
+  .jw_num_box {
+    margin-bottom: 0px;
+  }
+
+
+@media (max-width: 400px) {
+
+  .jw_parallax {
+    background-attachment: scroll;
+    height: 500px;
+  }
+
+  .jw_text-h3{
+    font-size: 60px;
+    line-height: 1em;
+  }
+
+  .jw_text-p{
+    margin:20px;
+    font-size: 18px;
+  }
+
+  .jw_bold {
+    font-size: 25px;
+  }
+
+  .jw_top{
+    margin-top: 20px;
+  }
+ 
