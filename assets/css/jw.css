@@ -1,3 +1,11 @@
+body{
+  background-color:#BE3115;
+}
+
+.outter{
+  height: 2200px;
+}
+
 /*link effects*/
 .jw_link,.jw_link:visited,.jw_link:hover,.jw_link:active{
   -webkit-backface-visibility:hidden;
@@ -174,6 +182,7 @@
 
 .jw_smokeimg {
   background-image: url("../images/smoke.jpg");
+  background-repeat: none;
   width: 100%;
 }
 
@@ -246,6 +255,7 @@
 
 
 @media (max-width: 1200px) {
+
   .jw_parallax {
     height: 350px; 
   }
@@ -274,9 +284,17 @@
     background-attachment: scroll;
     height: 300px; 
   }
+
+  .outter{
+  height: 2300px;
+  }
 }
 
 @media (max-width: 900px) {
+  .outter{
+    height: 2800px;
+  }
+
   .jw_chain {
     width: 33%; 
     float: left; 
@@ -304,6 +322,10 @@
 
 
 @media (max-width: 800px){
+  .outter{
+    height: 2900px;
+  }
+
   .jw_card{
     height: 140px;
     width:50%; 
@@ -333,6 +355,9 @@
 }
 
 @media (max-width: 600px) {
+  .outter{
+    height: 4000px;
+  }
 
   .jw_bottomtext {
     margin: 25px 50px 0px 50px;
@@ -369,6 +394,10 @@
 
 
 @media (max-width: 400px) {
+
+  .outter{
+    height: 4200px;
+  }
 
   .jw_parallax {
     background-attachment: scroll;

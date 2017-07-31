@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="./assets/css/bootstrap-theme.min.css">
 
+    <link rel="stylesheet" href="./assets/css/font-awesome.css">
+
     <link href="./assets/css/style.css" rel="stylesheet">
 
     <link href="./assets/css/red.css" rel="stylesheet">
@@ -34,6 +36,186 @@
     </head>
 
     <body>
+
+<div class="outter" style="">
+
+        <!-- BEGIN TOP BLOCK -->
+    <section class="top-block">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="sel-top">
+                         <div class="ghostwhite">
+                                
+                           <a href="javascript:ShowLogin();" style="color:white;">Welcome, Please Sign In</a>
+                            <br>&nbsp;
+                                
+                        </div>
+                        
+                        <div class="text-right ghostwhite"></div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+        <!-- END TOP BLOCK -->      
+        <!-- BEGIN HEADER -->
+    <section class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 hidden-xs hidden-sm">
+                    <div class="sitelogo-block">
+                        <div class="logo">
+                            <a href="https://www.brooksequipment.com/home/">
+                            <img src="./assets/images/NEWBrookslogo.png" alt="">
+                                </a>
+                        </div>
+
+                        <div class="titledesc">
+                            <a href="https://www.brooksequipment.com/home/">
+                            <img src="./assets/images/Brookslogotext.png" alt="" style="margin-left:-20px;padding-top:4px;width:280px;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 hidden-md hidden-lg">
+                    <div class="sitelogo-block">
+                        <div class="" style="margin-top:10px;">
+                            <a href="https://www.brooksequipment.com/home/">
+                            <img src="./assets/images/NEWBrookslogo.png" alt="" style="height:40px;"><img src="./assets/images/Brookslogotext.png" alt="" style="padding-top:4px;height:40px;">
+                           </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 col-sm-8 col-md-6">
+                    <div class="topinfo-block">
+                            
+                        <input type="text" class="input-search" id="txtSearch" value="" placeholder="search">
+
+                        <button type="button" class="submit-search" id="btnSearch"><i class="fa fa-search" aria-hidden="true"></i></button>
+                        <a href="javascript:ShowLogin();" class="info login">
+                        <span class="icon"><i class="icon-lock"></i>
+                        </span><span class="hidden-xs">Login</span></a>
+                        <div id="ctl00_loginerr"></div>
+                                
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--/.container -->
+    </section>     
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="bhcBreadcrumb">
+                    <ul id="breadcrumb" class="navlink"><li><a href="https://www.brooksequipment.com/Home/">Home</a> » </li><li style="font-weight:bold;"><span>History</span></li></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- BEGIN NAVIGATION -->
+        <section class="navigation">                                  
+            <div class="container">                                  
+                <div class="row">                                 
+                    <div class="col-md-12">                            
+                        <nav class="navbar navbar-default" role="navigation">                                               <div class="container-fluid">                 
+                            <div class="navbar-header"                 
+                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topnav">                                
+                                <span class="sr-only">Toggle navigation</span>                                
+                                <span class="icon-bar"></span>                                
+                                <span class="icon-bar"></span>                                
+                                <span class="icon-bar"></span>                            
+                                </button>                        
+                            </div>                                     
+
+                            <div class="collapse navbar-collapse" id="topnav">                                        
+                            <ul class="nav navbar-nav">                                                     <!--HOME -->                                       
+                                <li>                                    
+                                <a href="https://www.brooksequipment.com/Home/">Home</a>                                
+                                </li>                                   
+                                <!-- PRODUCTS -->                      
+                                <li class="dropdown">                  
+                                <a href="https://www.brooksequipment.com/History/#" class="dropdown-toggle" data-toggle="dropdown">Products<span class="caret"></span></a>                                    
+                                <ul class="dropdown-menu" role="menu"> 
+                                <li class="MustBeLoggedIn" style="display: none;">
+
+                                <a href="https://www.brooksequipment.com/Pictogram" title="Pictograms">Pictograms</a></li>                                    
+                                <li>
+                                <a href="https://www.brooksequipment.com/catalog/Fire%20Extinguishers%20and%20Chemical">Fire Extinguishers &amp; Chemical</a></li>
+                                <li>
+                                <a href="https://www.brooksequipment.com/catalog/Cabinets,%20Accessories,%20and%20Covers">Cabinets, Accessories, &amp; Covers</a></li>
+                                <li>
+                                <a href="https://www.brooksequipment.com/catalog/Fire%20Hose,%20Nozzles,%20Brass,%20and%20Hose%20Valves">Fire Hose, Nozzles, Brass, &amp; Hose Valves</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Emergency%20Response%20Products">Emergency Response Products</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Personal%20Protection%20and%20Safety%20Products">Personal Protection &amp; Safety Products</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Sprinkler%20Accessories%20and%20Standpipe%20Equipment">Sprinkler Accessories &amp; Standpipe Equipment</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Fire%20Alarm%20Products">Fire Alarm Products</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Exit%20and%20Emergency%20Lighting">Exit &amp; Emergency Lighting</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Signs,%20Labels,%20and%20Tags">Signs, Labels, &amp; Tags</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Service%20Equipment">Service Equipment</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Fire%20Extinguisher%20Parts">Fire Extinguisher Parts</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Pre-Engineered%20System%20Parts">Pre-Engineered System Parts</a></li>
+                                <li><a href="https://www.brooksequipment.com/catalog/Clearance">Clearance</a></li><li><a href="https://www.brooksequipment.com/catalog/New%20Products">New Products</a>
+                                </li>                                    
+                                </ul>
+                                                                
+                                </li>                                                                         <!-- REWARDS -->                       <li class="dropdown">                   
+                                <a href="https://www.brooksequipment.com/History/#" class="dropdown-toggle" data-toggle="dropdown">Rewards<b class="caret"></b></a>
+
+                                <ul class="dropdown-menu" role="menu"> <li><a href="https://www.brooksequipment.com/BrooksRewards/">Brooks Rewards</a>
+                                </li>                                  
+                                <li><a href="https://www.brooksequipment.com/BrooksComplianceGuide/">Compliance Guide</a>
+                                </li>                         
+                                <li><a href="https://www.brooksequipment.com/ComplianceGuideUsers/">Compliance Guide Users</a>                        
+                                </li>
+                                </ul>                                
+                                </li>    
+
+                                <!-- RESOURCES-->                      <li class="dropdown"><a href="https://www.brooksequipment.com/History/#" class="dropdown-toggle" data-toggle="dropdown">Resources <span class="caret"></span>                  </a>                                   
+                                <ul class="dropdown-menu" role="menu"> 
+                                <!--  <li>                             <a href="/Resources/">Brooks Equipment Resources</a>                          </li> -->                              
+                                <li><a href="https://www.brooksequipment.com/CatalogRequest/">Catalog Request</a></li>                                     
+                                <li><a href="https://www.brooksequipment.com/CatalogPDFs/">Catalog PDF's</a></li>                 
+
+                                <li><a href="https://www.brooksequipment.com/BatteryxRef/">Battery Cross Reference</a></li>       
+
+                                <li><a href="https://www.brooksequipment.com/BatteryRecycling/">Battery Recycling</a></li> 
+                                <li class="show_when_est" style="visibility: hidden; display: none;"><a href="https://www.brooksequipment.com/EdwardsStrategicPartners/">Edwards™ Strategic Partners</a></li>            
+
+                                <a href="https://www.brooksequipment.com/FeTools/">Fire Extinguisher Tools</a>
+                                </li>  
+
+                                <li><a href="https://www.brooksequipment.com/InTheNews/">In The News</a></li>                      
+
+                                <li><a href="https://www.brooksequipment.com/HoseRack/">Hose Rack Assembly Parts Selector</a>  </li>   
+
+                                <li><a href="https://www.brooksequipment.com/PersonalizedFlyersProgram/">Personalized Flyers</a>
+                                </li>                                  
+                                <li><a href="https://www.brooksequipment.com/SDS/">Safety Data Sheet</a></li>                    
+                                </ul>                                  </li>                                  <li><a href="https://www.brooksequipment.com/History/#" class="dropdown-toggle" data-toggle="dropdown">Training <span class="caret"></span>
+                                </a>                 
+                                <ul class="dropdown-menu" role="menu"> <li><a href="https://www.brooksequipment.com/ElightInfo/">E-light Training Classes</a></li>      <li>
+                                <a href="https://www.brooksequipment.com/HotTopics/">Hot Topics</a></li>                    <li><a href="https://www.brooksequipment.com/TechArticles/">Technical Articles</a></li>            <li><a href="https://www.brooksequipment.com/FireSafetyRequirementsOSHA/">Fire Safety Requirements - OSHA</a>         </li>
+                                </ul>                                
+                                </li>                                  <!-- ABOUT US -->                      <li class="dropdown"><a href="https://www.brooksequipment.com/History/#" class="dropdown-toggle" data-toggle="dropdown">ABOUT US <span class="caret"></span></a>                            <ul class="dropdown-menu" role="menu"> <li><a href="https://www.brooksequipment.com/AboutUs/">About Brooks Equipment</a></li>        <li><a href="https://www.brooksequipment.com/History/">Our History</a></li>                       <li><a href="https://www.brooksequipment.com/GenuineBrooks/">What Genuine Brooks Means</a></li>    <li class="divider"></li>
+                                <li><a href="https://www.brooksequipment.com/NewAccount/">Request To Open Account</a></li>       <li><a href="https://www.brooksequipment.com/ResaleTax/">Resale Tax Certificate</a></li>        <li><a href="https://www.brooksequipment.com/FireProtectionCares/">Fire Protection Cares</a></li>                         <li><a href="https://www.brooksequipment.com/Employees/">Employees</a></li>
+                                </ul>                                
+                                </li>                                  <!-- CONTACT US -->                    <li class="dropdown"><a href="https://www.brooksequipment.com/History/#" class="dropdown-toggle" data-toggle="dropdown">Contact Us <span class="caret"></span></a>                          <ul class="dropdown-menu" role="menu"> <li><a href="https://www.brooksequipment.com/ContactUs/">Contact Brooks Equipment</a></li>      <li><a href="https://www.brooksequipment.com/Locations/">Locations</a></li>                     <li><a href="https://www.brooksequipment.com/FAQs/">FAQs</a></li>                                  <li><a href="https://www.brooksequipment.com/Careers/">Career Opportunities</a></li></ul> 
+                                </li>
+                            </ul>                        
+                            </div>                    
+                        </div>                
+                    </nav> 
+                </div>
+            </div>
+        </div>
+    </section>     <!-- END NAVIGATION -->      
+            
 
     <!-- ********  JANET WALKER CODE BEGINS  ********************************************** -->
 
@@ -57,7 +239,7 @@
         </div>
 
         <div class="row">
-            <div class="text-center">
+            <div class="text-center jw_enlarge">
                 
                 <img src="./assets/images/fire1.png" alt="Call the Fire Department" class="jw_chain">
 
@@ -191,6 +373,8 @@
     <div><img src="./assets/images/spacer.png" class="jw_spacer"></div>
 
     <!-- ********  END OF JANET WALKER CODE  ***************************************** -->
+
+</div>
 
 </div>
 
