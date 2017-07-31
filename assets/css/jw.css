@@ -166,11 +166,6 @@
   margin:50px;
 }
 
-.jw_top {
-  margin: 20px;
-  color: white;
-}
-
 .jw_chain {
   width: 16.65%; 
   float: left; 
@@ -178,7 +173,7 @@
 }
 
 .jw_smokeimg {
-  background-image: url("smoke.jpg");
+  background-image: url("../images/smoke.jpg");
   width: 100%;
 }
 
@@ -188,7 +183,7 @@
 
 .jw_bottomtext {
   line-height: 1em;
-  margin:25px 175px 0px 175px;
+  margin:25px 200px 0px 200px;
 }
 
 .jw_style {
@@ -205,6 +200,7 @@
 
 .jw_text-p{
   margin:30px;
+  color: white;
   font-size: 25px;
   line-height: 1.25em;
   text-shadow: 1px 1px #333333;
@@ -212,21 +208,18 @@
 
 .jw_bold {
   font-size: 30px;
+  color: white;
   text-shadow: 2px 2px #333333;
-}
-
-.jw_top{
-  margin-top: 20px;
 }
 
 
 /* Parallax Elements */
 .jw_parallax { 
     /* The image used */
-    background-image: url("firefighters2.jpg");
+    background-image: url("../images/firefighters2.jpg");
 
     /* Set a specific height */
-    height: 350px; 
+    height: 400px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -254,7 +247,7 @@
 
 @media (max-width: 1200px) {
   .jw_parallax {
-    height: 320px; 
+    height: 350px; 
   }
 
   .jw_card{
@@ -265,7 +258,7 @@
 
   .jw_text-h3{
     margin: 20px;
-    font-size: 80px;
+    font-size: 70px;
   }
 
   .jw_num_text {
@@ -279,7 +272,7 @@
 @media only screen and (max-device-width: 1024px) {
   .jw_parallax {
     background-attachment: scroll;
-    height: 250px; 
+    height: 300px; 
   }
 }
 
@@ -305,7 +298,7 @@
   }
 
   .jw_bottomtext {
-    margin: 25px 50px 0px 50px;
+    margin: 25px 100px 0px 100px;
   }
 }
 
@@ -333,7 +326,7 @@
   }
 
   .jw_spacer2{
-    background-image: url("spacer.png");
+    background-image: url("../images/spacer.png");
     height: 10px;
   }
 
@@ -342,7 +335,7 @@
 @media (max-width: 600px) {
 
   .jw_bottomtext {
-    margin: 25px 25px 0px 25px;
+    margin: 25px 50px 0px 50px;
   }
 
   .jw_parallax {
@@ -387,6 +380,10 @@
     line-height: 1em;
   }
 
+  .jw_bottomtext {
+    margin: 25px 25px 0px 25px;
+  }
+
   .jw_text-p{
     margin:20px;
     font-size: 18px;
@@ -396,7 +393,4 @@
     font-size: 25px;
   }
 
-  .jw_top{
-    margin-top: 20px;
-  }
  
