@@ -142,6 +142,16 @@ body{
   height: 130px;
 }
 
+.jw_border:after{
+    border: 1px solid red;
+    display:block;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width:305px;
+    height:305px;
+}
+
 .jw_num_box {
   width: 20%; 
   float: left; 
