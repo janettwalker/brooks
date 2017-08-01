@@ -354,7 +354,7 @@
             <div class="row">
                 <div class="text-center">
                   <span class="jw_square jw_individual">
-                    <a class="jw_before jw_after jw_link" href="#">Download Info-Graphic</a>
+                    <a class="jw_before jw_after jw_link" href="./assets/download/todownload.pdf" target="_blank" download>Download Info-Graphic</a>
                   </span>
                 </div>
             </div>
@@ -378,6 +378,18 @@
 
 
 </div>
+
+<script>
+
+jQuery(document).ready(function($) {
+   $('a[href$=".pdf"]')
+        .attr('download', './assets/download/todownload.pdf')
+        .attr('target', '_blank'); 
+});
+
+
+
+</script>
 
 </body>
 
